@@ -30,6 +30,6 @@ def predict():
 
 if __name__ == '__main__':
     try:
-        app.run(port=5000, debug=True)
+        app.run(port=5001, debug=True)
     except:
         print("Server is exited unexpectedly. Please contact server admin.")
