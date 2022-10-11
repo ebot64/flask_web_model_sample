@@ -23,7 +23,7 @@ def predict():
     # Make prediction using model loaded from disk as per the data.
     prediction = model.predict([[np.array(data['exp'])]])
 
-    # Take the first value of prediction
+    # Take the first value of prediction.
     output = prediction[0]
 
     return jsonify(output)
